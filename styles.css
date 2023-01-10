@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+
+.header {
+    display: flex;
+    background-color: #1f2937;
+    color: #f9faf8;
+    justify-content: space-around;
+}
+.logo {
+    align-self: center;
+    font-weight: bold;
+    font-size: 24px;
+    
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 9px;
+}
+li {
+    list-style: none;
+}
+a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #e5e7eb;
+    font-weight: lighter;
+}
+
+.description {
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+}
+.firstDescriptiion {
+    flex-direction: column; 
+    display: flex;   
+}
+.inner {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: auto;
+    padding-right: 15px;
+}
+.awesome {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+    margin-bottom: 0px;
+}
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 5px;
+    border-style: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.randomInfo {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.LargeBox {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 70px;
+
+}
+.box {
+    display: flex;
+    border-color: #3882f6;
+    height: 150px;
+    width: 150px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    align-self: center;
+}
+
+#mass {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+}
+
+.quoteBox {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+
+}
+.quote {
+    display: flex;
+    width: 810px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: lighter;
+
+}
+.Thor {
+    display: flex;
+    margin-top: 0px;
+    justify-content: end;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.callbox {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
+
+}
+.actual {
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.secondbutton {
+    border-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    justify-content: center;
+    padding: 23px;
+    display: flex;
+}
